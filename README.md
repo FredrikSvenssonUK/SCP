@@ -1,5 +1,5 @@
 # SCP
-Synergy Conformal Prediction for Prediction of Large-Scale Bioactivity Datasets and Federated Learning
+Synergy Conformal Prediction applied to Large-Scale Bioactivity Datasets and in Federated Learning
 
 python=3 pandas numpy=1.17.2 cloudpickle scikit-learn
 pip install nonconformist==2.1.0
