@@ -1,4 +1,4 @@
-#SCP
+# SCP
 This repository accompanies the publication ”Synergy Conformal Prediction applied to Large-Scale Bioactivity Datasets and in Federated Learning”
 
 Recommended packages:
@@ -9,7 +9,7 @@ Comment:
 Some later versions of numpy (>1.17.2) gives an error deprecation message and seems to give different predicted results for some examples.
 
 
-##Usage
+## Usage
 ```python
 conformal_prediction2_types.py [-h] [-i INFILE] [-n NMODELS]
                                       [-m {t,p,b}] [-s {t,c}] [-p PREDFILE]
