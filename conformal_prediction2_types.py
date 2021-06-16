@@ -36,7 +36,6 @@ from sklearn.model_selection import KFold
 import cloudpickle
 from bisect import bisect_right
 
-
 parser = ArgumentParser()
 parser.add_argument('-i','--infile', help='input training file')
 parser.add_argument('-n','--nmodels', type=str, help='number of models (default 20 models)')
@@ -118,7 +117,6 @@ if mode != 'p':
     kf = KFold(n_splits=nmodels, shuffle=True)
 
     xx = 0
-#    for xx in range(1, nmodels+1):
     for test_index, train_index in kf.split(train):
         xx = xx + 1
         if cptype  == 'icp':        
