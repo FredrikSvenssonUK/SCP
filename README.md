@@ -10,7 +10,7 @@ Some later versions of numpy (>1.17.2) gives an error deprecation message and se
 
 
 ## Usage
-```python
+```bash
 conformal_prediction2_types.py [-h] [-i INFILE] [-n NMODELS]
                                       [-m {t,p,b}] [-s {t,c}] [-p PREDFILE]
                                       [-a {rf,gb}]
@@ -41,10 +41,10 @@ optional arguments:
 ```
 
 Command line for predicting external test set using rscp and 10 models:
-```python
+```bash
 conformal_prediction2_types.py -n 10 -m b -s t -a rf -c rscp -f -1 -i trainfile -p testfile 
 ```
 Using the provided example data:
-```python
+```bash
 conformal_prediction2_types.py -n 10 -m b -s t -a rf -c rscp -f -1 -i example_data_train.txt -p example_data_test.txt
 ```
